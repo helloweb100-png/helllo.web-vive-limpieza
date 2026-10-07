@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <!-- Activa el modo JS lo antes posible (evita parpadeos y deja el sitio legible sin JS) -->
+    <script>
+        document.documentElement.className = 'js';
+        /* Red de seguridad: si main.js no carga, el sitio se muestra igual */
+        setTimeout(function () { document.documentElement.classList.add('is-ready', 'loader-timeout'); }, 11000);
+    </script>
+
+    <!-- ============================ SEO ============================ -->
+    <title>VIVE-LIMPIEZA | Limpieza de muebles, colchones, tapetes y autos</title>
+    <meta name="description" content="Limpieza profunda de muebles, tapetes, colchones, interior de autos, textiles y limpieza post obra. Cotiza por WhatsApp al 667 244 5395 y vuelve a estrenar lo que ya tienes.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="VIVE-LIMPIEZA">
+    <meta name="theme-color" content="#061b2e">
+    <!-- AL PUBLICAR: agrega aquí <link rel="canonical" href="https://TU-DOMINIO.com/"> y la etiqueta og:url con la misma dirección -->
+
+    <!-- Open Graph / Redes -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="VIVE-LIMPIEZA">
+    <meta property="og:title" content="VIVE-LIMPIEZA | Vuelve a estrenar lo que ya tienes">
+    <meta property="og:description" content="Limpieza profunda de muebles, tapetes, colchones, interior de autos y post obra. Cotiza por WhatsApp.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="VIVE-LIMPIEZA | Limpieza profunda de textiles, autos y post obra">
+    <meta name="twitter:description" content="Muebles, tapetes, colchones, interior de autos y post obra. Cotiza por WhatsApp.">
+
+    <!-- Favicon (gota de marca, incrustado) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231f7aff'/%3E%3Cstop offset='.55' stop-color='%232fe3d4'/%3E%3Cstop offset='1' stop-color='%23b8f34a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%23061b2e'/%3E%3Cpath d='M32 10C32 10 16 27 16 38a16 16 0 0 0 32 0C48 27 32 10 32 10Z' fill='url(%23g)'/%3E%3Cpath d='M24 37l6 6 10-13' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+    <!-- Rendimiento: conexiones tempranas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Datos estructurados: negocio local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "VIVE-LIMPIEZA",
+      "description": "Limpieza profunda de muebles, tapetes, colchones, interior de autos, textiles y limpieza post obra.",
+      "telephone": "+52 667 244 5395",
+      "priceRange": "$$",
+      "makesOffer": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza de muebles y salas" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza de tapetes y alfombras" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza de colchones" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza de interior de autos" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza post obra" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza de textiles" } }
+      ]
+    }
+    </script>
+    <!-- Datos estructurados: preguntas frecuentes (reflejan el contenido visible) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "¿Cómo pido mi cotización?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Escríbenos por WhatsApp al 667 244 5395, cuéntanos qué quieres limpiar y, si puedes, manda una o dos fotos. Con eso te decimos cómo lo resolvemos y cuánto cuesta, sin compromiso." } },
+        { "@type": "Question", "name": "¿Qué cosas pueden limpiar?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Muebles y salas, tapetes y alfombras, colchones, el interior de autos, cualquier textil (cortinas, cojines, tapicería) y limpieza post obra." } },
+        { "@type": "Question", "name": "¿Se quitan todas las manchas?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Depende del tipo de mancha, del material y de cuánto tiempo lleve. Te lo decimos con honestidad al cotizar: preferimos prometerte menos y sorprenderte más." } },
+        { "@type": "Question", "name": "¿Cuánto tarda en secar?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Depende del material y del servicio. Antes de empezar te damos una idea del tiempo para que planees tu día." } },
+        { "@type": "Question", "name": "¿También limpian después de una remodelación o construcción?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. La limpieza post obra elimina polvo fino y residuos para que estrenes tu espacio sin esfuerzo." } },
+        { "@type": "Question", "name": "¿Puedo pedir varios servicios a la vez?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Claro. Cuéntanos todo lo que quieres limpiar (sala, colchones, tapetes, auto…) y te cotizamos en conjunto." } }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- ================================================================
+     SPRITE SVG — íconos y marca (se reutilizan con <use>)
+================================================================ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+        <linearGradient id="g-brand" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#1f7aff"/>
+            <stop offset=".55" stop-color="#2fe3d4"/>
+            <stop offset="1" stop-color="#b8f34a"/>
+        </linearGradient>
+        <linearGradient id="g-ring" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#2fe3d4"/>
+            <stop offset="1" stop-color="#b8f34a"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Marca: gota + palomita en forma de "V" + destello -->
+    <symbol id="logo-mark" viewBox="0 0 48 48">
+        <path d="M23 4C23 4 8 19.5 8 29.5a15 15 0 0 0 30 0C38 19.5 23 4 23 4Z" fill="url(#g-brand)"/>
+        <path d="M15.5 28.5l6 6 10-12.5" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M38 2.5c.4 3.2 2 4.8 5.2 5.2-3.2.4-4.8 2-5.2 5.2-.4-3.2-2-4.8-5.2-5.2 3.2-.4 4.8-2 5.2-5.2Z" fill="#d4ff6a"/>
+    </symbol>
+
+    <!-- Íconos de línea 24×24 -->
+    <symbol id="i-sofa" viewBox="0 0 24 24"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><path d="M2 11v5a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H6v-2a2 2 0 0 0-4 0Z"/><path d="M4 18v2M20 18v2"/></symbol>
+    <symbol id="i-rug" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="1.5"/><rect x="6" y="9" width="12" height="6" rx=".6"/><path d="M12 10.3l1.7 1.7-1.7 1.7-1.7-1.7z"/><path d="M3 9H1.5M3 15H1.5M21 9h1.5M21 15h1.5"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M2 20v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8"/><path d="M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4"/><path d="M12 4v6M2 18h20"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></symbol>
+    <symbol id="i-hardhat" viewBox="0 0 24 24"><path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z"/><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5"/><path d="M4 15v-3a6 6 0 0 1 6-6M14 6a6 6 0 0 1 6 6v3"/></symbol>
+    <symbol id="i-shirt" viewBox="0 0 24 24"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.94 15.5A2 2 0 0 0 8.5 14.06l-6.13-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5l1.58-6.13a.5.5 0 0 1 .96 0l1.58 6.13a2 2 0 0 0 1.44 1.44l6.13 1.58a.5.5 0 0 1 0 .96l-6.13 1.58a2 2 0 0 0-1.44 1.44l-1.58 6.13a.5.5 0 0 1-.96 0z"/><path d="M20 3v4M22 5h-4M4 17v2M5 18H3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14M19 12l-7 7-7-7"/></symbol>
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 7h10v10M7 17 17 7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+    <symbol id="i-droplets" viewBox="0 0 24 24"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4M16 2v4"/><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 10h18"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></symbol>
+    <symbol id="i-wind" viewBox="0 0 24 24"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2M9.6 4.6A2 2 0 1 1 11 8H2M12.6 19.4A2 2 0 1 0 14 16H2"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10 9H8M16 13H8M16 17H8"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-4 0M14 10V4a2 2 0 0 0-4 0v2M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></symbol>
+    <!-- Ícono relleno: WhatsApp -->
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.89-9.88 9.89m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></symbol>
+</svg>
+
+<!-- ================================================================
+     LOADER — spinner de carga (gota que se llena + anillo de progreso)
+================================================================ -->
+<div class="loader" id="loader" role="status" aria-live="polite" aria-label="Cargando VIVE-LIMPIEZA">
+    <div class="loader__curtain loader__curtain--top"></div>
+    <div class="loader__curtain loader__curtain--bottom"></div>
+
+    <div class="loader__bubbles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="loader__center">
+        <div class="loader__stage">
+            <!-- Anillo de progreso + órbita -->
+            <svg class="loader__ring" viewBox="0 0 200 200" aria-hidden="true">
+                <circle class="loader__track" cx="100" cy="100" r="90"/>
+                <circle class="loader__orbit" cx="100" cy="100" r="98"/>
+                <circle class="loader__progress" cx="100" cy="100" r="90" transform="rotate(-90 100 100)"/>
+            </svg>
+            <div class="loader__spark loader__spark--1"><i></i></div>
+            <div class="loader__spark loader__spark--2"><i></i></div>
+
+            <!-- Gota que se llena con el progreso -->
+            <svg class="loader__drop" viewBox="0 0 48 48" aria-hidden="true">
+                <defs>
+                    <clipPath id="drop-clip">
+                        <path d="M23 4C23 4 8 19.5 8 29.5a15 15 0 0 0 30 0C38 19.5 23 4 23 4Z"/>
+                    </clipPath>
+                </defs>
+                <path class="loader__drop-bg" d="M23 4C23 4 8 19.5 8 29.5a15 15 0 0 0 30 0C38 19.5 23 4 23 4Z"/>
+                <g clip-path="url(#drop-clip)">
+                    <g class="loader__liquid">
+                        <path class="loader__wave loader__wave--back" d="M-48 4q12-6 24 0t24 0t24 0t24 0t24 0t24 0t24 0t24 0V70H-48Z"/>
+                        <path class="loader__wave loader__wave--front" d="M-48 4q12-6 24 0t24 0t24 0t24 0t24 0t24 0t24 0t24 0V70H-48Z"/>
+                    </g>
+                </g>
+                <path class="loader__drop-line" d="M23 4C23 4 8 19.5 8 29.5a15 15 0 0 0 30 0C38 19.5 23 4 23 4Z"/>
+                <path class="loader__check" d="M15.5 28.5l6 6 10-12.5"/>
+                <path class="loader__star" d="M38 2.5c.4 3.2 2 4.8 5.2 5.2-3.2.4-4.8 2-5.2 5.2-.4-3.2-2-4.8-5.2-5.2 3.2-.4 4.8-2 5.2-5.2Z"/>
+            </svg>
+        </div>
+
+        <p class="loader__brand">VIVE<span>-</span>LIMPIEZA</p>
+        <p class="loader__status" id="loader-status">Preparando tu espacio…</p>
+        <p class="loader__pct"><span id="loader-pct">0</span><small>%</small></p>
+    </div>
+</div>
+
+<!-- ================================================================
+     HEADER
+================================================================ -->
+<header class="header" id="inicio-top">
+    <div class="header__bar container">
+        <a class="brand" href="#inicio" aria-label="VIVE-LIMPIEZA — ir al inicio">
+            <svg class="brand__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+            <span class="brand__text">VIVE<i>-</i><b>LIMPIEZA</b></span>
+        </a>
+
+        <button class="burger" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" id="primary-nav" aria-label="Navegación principal">
+            <ul class="nav__list">
+                <li><a class="nav__link" href="#servicios">Servicios</a></li>
+                <li><a class="nav__link" href="#nosotros">Por qué nosotros</a></li>
+                <li><a class="nav__link" href="#proceso">Proceso</a></li>
+                <li><a class="nav__link" href="#faq">Preguntas</a></li>
+                <li><a class="nav__link" href="#contacto">Contacto</a></li>
+            </ul>
+            <!-- CTA 1 -->
+            <a class="btn btn--primary btn--sm nav__cta" data-magnetic
+               href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20vi%20su%20p%C3%A1gina%20web%20y%20quiero%20una%20cotizaci%C3%B3n."
+               target="_blank" rel="noopener">
+                <svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                <span>Quiero mi cotización</span>
+            </a>
+        </nav>
+    </div>
+    <div class="header__progress" aria-hidden="true"><span id="scroll-progress"></span></div>
+</header>
+
+<main id="contenido">
+
+<!-- ================================================================
+     1. HERO
+================================================================ -->
+<section class="hero" id="inicio" aria-labelledby="hero-title" data-spot>
+    <canvas class="hero__bubbles" id="bubbles" aria-hidden="true"></canvas>
+    <div class="hero__aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__spot" aria-hidden="true"></div>
+
+    <div class="hero__inner container">
+        <div class="hero__copy">
+            <p class="pill reveal-hero" style="--i:0">
+                <span class="pulse-dot"></span>
+                Limpieza profunda · Textiles, autos y post obra
+            </p>
+
+            <h1 class="hero__title" id="hero-title">
+                <span class="w" style="--i:1"><span>Vuelve</span></span>
+                <span class="w" style="--i:2"><span>a</span></span>
+                <span class="w w--grad" style="--i:3"><span>estrenar</span></span>
+                <span class="w" style="--i:4"><span>lo</span></span>
+                <span class="w" style="--i:5"><span>que</span></span>
+                <span class="w" style="--i:6"><span>ya</span></span>
+                <span class="w" style="--i:7"><span>tienes.</span></span>
+            </h1>
+
+            <p class="hero__lead reveal-hero" style="--i:8">
+                Limpiamos a fondo tus <strong>muebles, tapetes, colchones</strong> y el
+                <strong>interior de tu auto</strong>. También dejamos impecable tu espacio después de
+                la obra. Manchas, polvo y malos olores, fuera.
+            </p>
+
+            <p class="hero__rotator reveal-hero" style="--i:9" aria-hidden="true">
+                <span class="hero__rotator-label">Hoy toca limpiar</span>
+                <span class="hero__rotator-word" id="rotator">tu sala</span>
+            </p>
+
+            <div class="hero__actions reveal-hero" style="--i:10">
+                <!-- CTA 2 -->
+                <a class="btn btn--primary btn--lg" data-magnetic
+                   href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20estoy%20listo%20para%20renovar%20algo%20en%20casa.%20Quiero%20mi%20cotizaci%C3%B3n."
+                   target="_blank" rel="noopener">
+                    <svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                    <span>Estoy listo, quiero mi cotización</span>
+                    <svg class="icon btn__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+                </a>
+                <a class="btn btn--ghost btn--lg" href="#servicios">
+                    <span>Ver qué limpiamos</span>
+                    <svg class="icon" aria-hidden="true"><use href="#i-arrow-down"/></svg>
+                </a>
+            </div>
+
+            <ul class="hero__chips reveal-hero" style="--i:11">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Cotización por WhatsApp</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Trato directo contigo</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Limpieza a profundidad</li>
+            </ul>
+        </div>
+
+        <!-- Sistema orbital: gota de marca + servicios orbitando (animación constante) -->
+        <div class="hero__visual reveal-hero" style="--i:6" aria-hidden="true">
+            <div class="orbit" id="orbit">
+                <div class="orbit__glow"></div>
+
+                <div class="orbit__ring orbit__ring--3">
+                    <div class="orbit__node" style="--a:30deg"><div class="orbit__pos"><div class="orbit__chip"><svg class="icon"><use href="#i-hardhat"/></svg></div></div></div>
+                    <div class="orbit__node" style="--a:210deg"><div class="orbit__pos"><div class="orbit__chip"><svg class="icon"><use href="#i-shirt"/></svg></div></div></div>
+                </div>
+                <div class="orbit__ring orbit__ring--2">
+                    <div class="orbit__node" style="--a:120deg"><div class="orbit__pos"><div class="orbit__chip"><svg class="icon"><use href="#i-car"/></svg></div></div></div>
+                    <div class="orbit__node" style="--a:300deg"><div class="orbit__pos"><div class="orbit__chip"><svg class="icon"><use href="#i-bed"/></svg></div></div></div>
+                </div>
+                <div class="orbit__ring orbit__ring--1">
+                    <div class="orbit__node" style="--a:0deg"><div class="orbit__pos"><div class="orbit__chip"><svg class="icon"><use href="#i-sofa"/></svg></div></div></div>
+                    <div class="orbit__node" style="--a:180deg"><div class="orbit__pos"><div class="orbit__chip"><svg class="icon"><use href="#i-rug"/></svg></div></div></div>
+                </div>
+
+                <div class="orbit__core">
+                    <div class="orbit__drop">
+                        <svg viewBox="0 0 48 48"><use href="#logo-mark"/></svg>
+                    </div>
+                    <div class="orbit__shadow"></div>
+                </div>
+
+                <span class="orbit__sparkle orbit__sparkle--1"></span>
+                <span class="orbit__sparkle orbit__sparkle--2"></span>
+                <span class="orbit__sparkle orbit__sparkle--3"></span>
+                <span class="orbit__sparkle orbit__sparkle--4"></span>
+
+                <div class="orbit__tag orbit__tag--a"><span class="pulse-dot"></span> Atención directa por WhatsApp</div>
+                <div class="orbit__tag orbit__tag--b"><svg class="icon"><use href="#i-sparkles"/></svg> Manchas y olores fuera</div>
+            </div>
+        </div>
+    </div>
+
+    <a class="scroll-hint reveal-hero" style="--i:12" href="#servicios" aria-label="Bajar a servicios">
+        <span class="scroll-hint__mouse"><i></i></span>
+        <span class="scroll-hint__text">Desliza</span>
+    </a>
+
+    <!-- Olas animadas que conectan con la siguiente sección -->
+    <div class="hero__wave" aria-hidden="true">
+        <svg viewBox="0 0 2880 120" preserveAspectRatio="none">
+            <path class="wave wave--1" d="M0 60C240 100 480 100 720 60S1200 20 1440 60C1680 100 1920 100 2160 60S2640 20 2880 60V120H0Z"/>
+            <path class="wave wave--2" d="M0 80C240 40 480 40 720 80S1200 120 1440 80C1680 40 1920 40 2160 80S2640 120 2880 80V120H0Z"/>
+        </svg>
+    </div>
+</section>
+
+<!-- ================================================================
+     MARQUEE — cinta infinita
+================================================================ -->
+<div class="marquee" aria-hidden="true">
+    <div class="marquee__row">
+        <div class="marquee__track">
+            <span>Muebles y salas</span><i></i><span>Tapetes y alfombras</span><i></i><span>Colchones</span><i></i><span>Interior de autos</span><i></i><span>Limpieza post obra</span><i></i><span>Todo lo textil</span><i></i>
+            <span>Muebles y salas</span><i></i><span>Tapetes y alfombras</span><i></i><span>Colchones</span><i></i><span>Interior de autos</span><i></i><span>Limpieza post obra</span><i></i><span>Todo lo textil</span><i></i>
+        </div>
+    </div>
+    <div class="marquee__row marquee__row--alt">
+        <div class="marquee__track">
+            <span>Manchas fuera</span><i></i><span>Malos olores fuera</span><i></i><span>Polvo fuera</span><i></i><span>Frescura que se nota</span><i></i><span>Como nuevo</span><i></i>
+            <span>Manchas fuera</span><i></i><span>Malos olores fuera</span><i></i><span>Polvo fuera</span><i></i><span>Frescura que se nota</span><i></i><span>Como nuevo</span><i></i>
+        </div>
+    </div>
+</div>
+
+<!-- ================================================================
+     2. SERVICIOS (bento)
+================================================================ -->
+<section class="section section--mist" id="servicios" aria-labelledby="servicios-title">
+    <div class="container">
+        <header class="section__head" data-reveal>
+            <p class="eyebrow">Lo que limpiamos</p>
+            <h2 class="section__title" id="servicios-title">Todo lo que usas a diario, <span class="grad">como nuevo.</span></h2>
+            <p class="section__lead">Elige lo que quieres renovar y escríbenos. Te decimos cómo lo resolvemos antes de empezar.</p>
+        </header>
+
+        <div class="bento" data-stagger>
+            <!-- Muebles -->
+            <article class="card card--wide" data-reveal data-tilt>
+                <div class="card__media">
+                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1000&q=75"
+                         width="1000" height="667" loading="lazy" decoding="async"
+                         alt="Sala con sillón de tela gris limpio y cojines, lista para disfrutarse" data-parallax-img>
+                    <span class="card__num">01</span>
+                </div>
+                <div class="card__body">
+                    <span class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-sofa"/></svg></span>
+                    <h3 class="card__title">Limpieza de muebles y salas</h3>
+                    <p class="card__text">Sillones, sofás, comedores y sillas. Quitamos manchas, polvo atrapado y olores para que vuelvas a sentarte con gusto.</p>
+                    <ul class="tags"><li>Sillones</li><li>Sofás</li><li>Sillas</li></ul>
+                    <!-- CTA 3 -->
+                    <a class="link-cta" href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20quiero%20cotizar%20la%20limpieza%20de%20mi%20sala%20%2F%20muebles." target="_blank" rel="noopener">
+                        Quiero mi sala como nueva <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Tapetes -->
+            <article class="card" data-reveal data-tilt>
+                <div class="card__media">
+                    <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=75"
+                         width="800" height="533" loading="lazy" decoding="async"
+                         alt="Aspiradora limpiando a fondo un tapete de fibra" data-parallax-img>
+                    <span class="card__num">02</span>
+                </div>
+                <div class="card__body">
+                    <span class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-rug"/></svg></span>
+                    <h3 class="card__title">Tapetes y alfombras</h3>
+                    <p class="card__text">Fibra por fibra: devolvemos color, frescura y suavidad a tapetes y alfombras que ya vieron demasiado.</p>
+                    <ul class="tags"><li>Tapetes</li><li>Alfombras</li><li>Pasillos</li></ul>
+                    <a class="link-cta" href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20quiero%20cotizar%20la%20limpieza%20de%20mis%20tapetes%20o%20alfombras." target="_blank" rel="noopener">
+                        Quiero mis tapetes impecables <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Colchones -->
+            <article class="card" data-reveal data-tilt>
+                <div class="card__media">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=75"
+                         width="800" height="533" loading="lazy" decoding="async"
+                         alt="Cama con colchón y ropa de cama limpia en una recámara luminosa" data-parallax-img>
+                    <span class="card__num">03</span>
+                </div>
+                <div class="card__body">
+                    <span class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-bed"/></svg></span>
+                    <h3 class="card__title">Limpieza de colchones</h3>
+                    <p class="card__text">Duerme sobre limpio. Sacamos manchas, polvo y malos olores acumulados con el uso diario.</p>
+                    <ul class="tags"><li>Manchas</li><li>Polvo</li><li>Olores</li></ul>
+                    <a class="link-cta" href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20quiero%20cotizar%20la%20limpieza%20de%20mi%20colch%C3%B3n." target="_blank" rel="noopener">
+                        Quiero dormir en limpio <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Autos -->
+            <article class="card" data-reveal data-tilt>
+                <div class="card__media">
+                    <img src="https://images.unsplash.com/photo-1636763086489-6d977665614a?auto=format&fit=crop&w=800&q=75"
+                         width="800" height="533" loading="lazy" decoding="async"
+                         alt="Interior de auto limpio con volante y asientos impecables" data-parallax-img>
+                    <span class="card__num">04</span>
+                </div>
+                <div class="card__body">
+                    <span class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-car"/></svg></span>
+                    <h3 class="card__title">Interior de autos</h3>
+                    <p class="card__text">Asientos, tapetes y todo el interior: que subir a tu auto vuelva a sentirse como el primer día.</p>
+                    <ul class="tags"><li>Asientos</li><li>Tapetes</li><li>Interior</li></ul>
+                    <a class="link-cta" href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20quiero%20cotizar%20la%20limpieza%20del%20interior%20de%20mi%20auto." target="_blank" rel="noopener">
+                        Quiero mi auto impecable <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Post obra -->
+            <article class="card" data-reveal data-tilt>
+                <div class="card__media">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=75"
+                         width="800" height="533" loading="lazy" decoding="async"
+                         alt="Persona con guantes y cubrebocas limpiando la ventana de un espacio después de una obra" data-parallax-img>
+                    <span class="card__num">05</span>
+                </div>
+                <div class="card__body">
+                    <span class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-hardhat"/></svg></span>
+                    <h3 class="card__title">Limpieza post obra</h3>
+                    <p class="card__text">Terminó la obra, empieza lo bueno. Eliminamos polvo fino y residuos para que estrenes tu espacio sin estrés.</p>
+                    <ul class="tags"><li>Polvo fino</li><li>Residuos</li><li>Listo para estrenar</li></ul>
+                    <a class="link-cta" href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20quiero%20cotizar%20una%20limpieza%20post%20obra." target="_blank" rel="noopener">
+                        Quiero estrenar mi espacio <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Todo lo textil (banner oscuro) -->
+            <article class="card card--banner" data-reveal>
+                <div class="card__banner-copy">
+                    <span class="card__icon card__icon--glow"><svg class="icon" aria-hidden="true"><use href="#i-shirt"/></svg></span>
+                    <h3 class="card__title">Todo lo textil, en buenas manos</h3>
+                    <p class="card__text">Cortinas, cojines, tapicería y más. Si es tela y necesita cariño, cuéntanos y lo resolvemos juntos.</p>
+                </div>
+                <a class="btn btn--primary btn--lg" data-magnetic
+                   href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20quiero%20cotizar%20la%20limpieza%20de%20unos%20textiles%20(cortinas%2C%20cojines%2C%20tapicer%C3%ADa%E2%80%A6)." target="_blank" rel="noopener">
+                    <svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                    <span>Clic aquí y cuéntanos qué limpiar</span>
+                </a>
+                <span class="card__banner-orb" aria-hidden="true"></span>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ================================================================
+     3. POR QUÉ NOSOTROS (oscura)
+================================================================ -->
+<section class="section section--dark" id="nosotros" aria-labelledby="nosotros-title" data-spot>
+    <div class="section__bg" aria-hidden="true"><i></i><i></i></div>
+    <div class="hero__spot" aria-hidden="true"></div>
+    <div class="container">
+        <header class="section__head section__head--left" data-reveal>
+            <p class="eyebrow eyebrow--dark">Por qué VIVE-LIMPIEZA</p>
+            <h2 class="sr-only" id="nosotros-title">Limpieza a fondo con trato directo</h2>
+        </header>
+
+        <p class="manifesto" id="manifesto" data-words>
+            No limpiamos por encima. Limpiamos a fondo donde te sientas, donde duermes, donde manejas y donde vives, para que tu espacio se sienta y se vea como nuevo.
+        </p>
+
+        <div class="pillars" data-stagger>
+            <article class="pillar" data-reveal>
+                <span class="pillar__icon"><svg class="icon" aria-hidden="true"><use href="#i-droplets"/></svg></span>
+                <h3>Limpieza a profundidad</h3>
+                <p>Vamos más allá de lo que se ve: quitamos manchas, polvo atrapado y malos olores donde se acumulan.</p>
+            </article>
+            <article class="pillar" data-reveal>
+                <span class="pillar__icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span>
+                <h3>Cuidado en cada tela</h3>
+                <p>Cada material es distinto. Revisamos antes de empezar para tratar tu mueble, tapete o asiento como se merece.</p>
+            </article>
+            <article class="pillar" data-reveal>
+                <span class="pillar__icon"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg></span>
+                <h3>Trato directo contigo</h3>
+                <p>Hablas con quien hace el trabajo: sin intermediarios, sin vueltas, directo por WhatsApp.</p>
+            </article>
+        </div>
+
+        <div class="stats" data-stagger>
+            <div class="stat" data-reveal>
+                <span class="stat__num"><span class="count" data-count="6">0</span></span>
+                <span class="stat__label">tipos de limpieza profunda</span>
+            </div>
+            <div class="stat" data-reveal>
+                <span class="stat__num"><span class="count" data-count="4">0</span></span>
+                <span class="stat__label">pasos simples para empezar</span>
+            </div>
+            <div class="stat" data-reveal>
+                <span class="stat__num"><span class="count" data-count="100">0</span><small>%</small></span>
+                <span class="stat__label">trato directo contigo</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================================================================
+     4. DEMO INTERACTIVA — limpia la tela
+================================================================ -->
+<section class="section section--light" id="demo" aria-labelledby="demo-title">
+    <div class="container demo">
+        <header class="section__head" data-reveal>
+            <p class="eyebrow">Pruébalo tú</p>
+            <h2 class="section__title" id="demo-title">Limpiar es satisfactorio. <span class="grad">Compruébalo.</span></h2>
+            <p class="section__lead">Desliza el cursor o el dedo sobre la tela y descubre cómo se siente. Es una demostración ilustrativa.</p>
+        </header>
+
+        <div class="wipe" id="wipe" data-reveal>
+            <div class="wipe__surface" id="wipe-surface">
+                <canvas class="wipe__canvas" id="wipe-canvas" role="img"
+                        aria-label="Tela sucia que puedes limpiar deslizando el cursor o el dedo"></canvas>
+                <canvas class="wipe__fx" id="wipe-fx" aria-hidden="true"></canvas>
+
+                <div class="wipe__badge">
+                    <svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg>
+                    Limpieza <b id="wipe-pct">0%</b>
+                </div>
+                <p class="sr-only" id="wipe-live" role="status"></p>
+                <div class="wipe__hint" id="wipe-hint">
+                    <svg class="icon" aria-hidden="true"><use href="#i-hand"/></svg>
+                    Desliza para limpiar
+                </div>
+
+                <div class="wipe__done" id="wipe-done" hidden>
+                    <span class="wipe__done-icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg></span>
+                    <p class="wipe__done-title">¡Así se siente lo limpio!</p>
+                    <p class="wipe__done-text">Imagina esto en tu sala, tu colchón o tu auto.</p>
+                    <!-- CTA 4 -->
+                    <a class="btn btn--primary" data-magnetic
+                       href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20prob%C3%A9%20el%20demo%20de%20su%20p%C3%A1gina%20y%20quiero%20esto%20en%20mi%20casa.%20%C2%BFMe%20cotizan%3F"
+                       target="_blank" rel="noopener">
+                        <svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                        <span>Quiero esto en mi casa</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="wipe__controls">
+                <button class="btn btn--dark btn--sm" type="button" id="wipe-auto">
+                    <svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg>
+                    <span>Limpiar automáticamente</span>
+                </button>
+                <button class="btn btn--outline btn--sm" type="button" id="wipe-reset">
+                    <span>Volver a ensuciar</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================================================================
+     5. PROCESO (oscura)
+================================================================ -->
+<section class="section section--dark section--process" id="proceso" aria-labelledby="proceso-title" data-spot>
+    <div class="section__bg" aria-hidden="true"><i></i><i></i></div>
+    <div class="hero__spot" aria-hidden="true"></div>
+    <div class="container">
+        <header class="section__head" data-reveal>
+            <p class="eyebrow eyebrow--dark">Cómo funciona</p>
+            <h2 class="section__title section__title--light" id="proceso-title">Así de simple es <span class="grad">empezar.</span></h2>
+            <p class="section__lead section__lead--light">Cuatro pasos. Sin vueltas, sin letra chiquita.</p>
+        </header>
+
+        <ol class="steps" id="steps">
+            <li class="step" data-reveal>
+                <span class="step__num">01</span>
+                <span class="step__icon"><svg class="icon" aria-hidden="true"><use href="#i-camera"/></svg></span>
+                <h3>Cuéntanos qué quieres limpiar</h3>
+                <p>Escríbenos por WhatsApp y, si puedes, manda una o dos fotos de lo que quieres renovar.</p>
+            </li>
+            <li class="step" data-reveal>
+                <span class="step__num">02</span>
+                <span class="step__icon"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg></span>
+                <h3>Recibe tu cotización</h3>
+                <p>Revisamos tu caso y te decimos cómo lo resolvemos y cuánto cuesta, antes de empezar.</p>
+            </li>
+            <li class="step" data-reveal>
+                <span class="step__num">03</span>
+                <span class="step__icon"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></span>
+                <h3>Agenda día y hora</h3>
+                <p>Coordinamos contigo el momento que mejor te acomode. Tú decides.</p>
+            </li>
+            <li class="step" data-reveal>
+                <span class="step__num">04</span>
+                <span class="step__icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg></span>
+                <h3>Disfruta lo limpio</h3>
+                <p>Siéntate, duerme o maneja… y nota la diferencia desde el primer momento.</p>
+            </li>
+        </ol>
+
+        <div class="process__cta" data-reveal>
+            <!-- CTA 5 -->
+            <a class="btn btn--primary btn--lg" data-magnetic
+               href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20quiero%20empezar%3A%20les%20cuento%20qu%C3%A9%20necesito%20limpiar."
+               target="_blank" rel="noopener">
+                <svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                <span>Empezar con el paso 1</span>
+                <svg class="icon btn__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ================================================================
+     6. PREGUNTAS FRECUENTES
+================================================================ -->
+<section class="section section--mist" id="faq" aria-labelledby="faq-title">
+    <div class="container faq">
+        <header class="section__head" data-reveal>
+            <p class="eyebrow">Dudas frecuentes</p>
+            <h2 class="section__title" id="faq-title">Lo que más nos <span class="grad">preguntan.</span></h2>
+        </header>
+
+        <div class="accordion" id="accordion" data-stagger>
+            <div class="acc" data-reveal>
+                <h3 class="acc__q"><button type="button" class="acc__btn" aria-expanded="false" aria-controls="acc-1" id="acc-btn-1">
+                    <span>¿Cómo pido mi cotización?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+                <div class="acc__panel" id="acc-1" role="region" aria-labelledby="acc-btn-1"><div><p>Escríbenos por WhatsApp al <a href="tel:+526672445395">667 244 5395</a>, cuéntanos qué quieres limpiar y, si puedes, manda una o dos fotos. Con eso te decimos cómo lo resolvemos y cuánto cuesta, sin compromiso.</p></div></div>
+            </div>
+            <div class="acc" data-reveal>
+                <h3 class="acc__q"><button type="button" class="acc__btn" aria-expanded="false" aria-controls="acc-2" id="acc-btn-2">
+                    <span>¿Qué cosas pueden limpiar?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+                <div class="acc__panel" id="acc-2" role="region" aria-labelledby="acc-btn-2"><div><p>Muebles y salas, tapetes y alfombras, colchones, el interior de autos, cualquier textil (cortinas, cojines, tapicería) y limpieza post obra.</p></div></div>
+            </div>
+            <div class="acc" data-reveal>
+                <h3 class="acc__q"><button type="button" class="acc__btn" aria-expanded="false" aria-controls="acc-3" id="acc-btn-3">
+                    <span>¿Se quitan todas las manchas?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+                <div class="acc__panel" id="acc-3" role="region" aria-labelledby="acc-btn-3"><div><p>Depende del tipo de mancha, del material y de cuánto tiempo lleve. Te lo decimos con honestidad al cotizar: preferimos prometerte menos y sorprenderte más.</p></div></div>
+            </div>
+            <div class="acc" data-reveal>
+                <h3 class="acc__q"><button type="button" class="acc__btn" aria-expanded="false" aria-controls="acc-4" id="acc-btn-4">
+                    <span>¿Cuánto tarda en secar?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+                <div class="acc__panel" id="acc-4" role="region" aria-labelledby="acc-btn-4"><div><p>Depende del material y del servicio. Antes de empezar te damos una idea del tiempo para que planees tu día.</p></div></div>
+            </div>
+            <div class="acc" data-reveal>
+                <h3 class="acc__q"><button type="button" class="acc__btn" aria-expanded="false" aria-controls="acc-5" id="acc-btn-5">
+                    <span>¿También limpian después de una remodelación o construcción?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+                <div class="acc__panel" id="acc-5" role="region" aria-labelledby="acc-btn-5"><div><p>Sí. La limpieza post obra elimina polvo fino y residuos para que estrenes tu espacio sin esfuerzo.</p></div></div>
+            </div>
+            <div class="acc" data-reveal>
+                <h3 class="acc__q"><button type="button" class="acc__btn" aria-expanded="false" aria-controls="acc-6" id="acc-btn-6">
+                    <span>¿Puedo pedir varios servicios a la vez?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+                <div class="acc__panel" id="acc-6" role="region" aria-labelledby="acc-btn-6"><div><p>Claro. Cuéntanos todo lo que quieres limpiar (sala, colchones, tapetes, auto…) y te cotizamos en conjunto.</p></div></div>
+            </div>
+        </div>
+
+        <p class="faq__more" data-reveal>
+            ¿Otra duda?
+            <a class="text-link" href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20tengo%20una%20duda%20sobre%20sus%20servicios%20de%20limpieza." target="_blank" rel="noopener">Pregúntanos por WhatsApp</a>
+        </p>
+    </div>
+</section>
+
+<!-- ================================================================
+     7. CONTACTO + CTA FINAL (oscura)
+================================================================ -->
+<section class="section section--dark section--contact" id="contacto" aria-labelledby="contacto-title" data-spot>
+    <canvas class="hero__bubbles hero__bubbles--soft" id="bubbles-2" aria-hidden="true"></canvas>
+    <div class="section__bg" aria-hidden="true"><i></i><i></i></div>
+    <div class="hero__spot" aria-hidden="true"></div>
+
+    <div class="container contact">
+        <div class="contact__copy" data-reveal>
+            <p class="eyebrow eyebrow--dark">Hablemos</p>
+            <h2 class="section__title section__title--light" id="contacto-title">Un mensaje, y lo que ya tienes <span class="grad">vuelve a vivir.</span></h2>
+            <p class="section__lead section__lead--light">Cuéntanos qué quieres limpiar. Te respondemos por WhatsApp y coordinamos todo contigo.</p>
+
+            <a class="contact__phone" href="tel:+526672445395" aria-label="Llamar al 667 244 5395">
+                <span class="contact__phone-icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+                <span class="contact__phone-text">
+                    <small>Llámanos o escríbenos directo</small>
+                    <strong>667 244 5395</strong>
+                </span>
+            </a>
+
+            <!-- CTA 6 -->
+            <a class="btn btn--primary btn--lg" data-magnetic
+               href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20quiero%20mi%20cotizaci%C3%B3n%20ahora."
+               target="_blank" rel="noopener">
+                <svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                <span>Sí, quiero mi cotización ahora</span>
+                <svg class="icon btn__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+            </a>
+        </div>
+
+        <form class="form" id="contact-form" data-reveal novalidate aria-labelledby="form-title">
+            <h3 class="form__title" id="form-title">O déjanos tu solicitud aquí</h3>
+            <p class="form__sub">Al enviarla, se abre WhatsApp con tu mensaje listo.</p>
+
+            <div class="field">
+                <label for="f-nombre">Tu nombre</label>
+                <input id="f-nombre" name="nombre" type="text" autocomplete="name" placeholder="¿Cómo te llamas?" required>
+                <span class="field__error" id="err-nombre" role="alert"></span>
+            </div>
+
+            <div class="field">
+                <label for="f-servicio">¿Qué quieres limpiar?</label>
+                <div class="select">
+                    <select id="f-servicio" name="servicio" required>
+                        <option value="" selected disabled>Elige una opción</option>
+                        <option>Muebles y salas</option>
+                        <option>Tapetes y alfombras</option>
+                        <option>Colchones</option>
+                        <option>Interior de mi auto</option>
+                        <option>Limpieza post obra</option>
+                        <option>Otro textil (cortinas, cojines, tapicería…)</option>
+                        <option>Varias cosas a la vez</option>
+                    </select>
+                    <svg class="icon" aria-hidden="true"><use href="#i-arrow-down"/></svg>
+                </div>
+                <span class="field__error" id="err-servicio" role="alert"></span>
+            </div>
+
+            <div class="field">
+                <label for="f-detalles">Cuéntanos más <span class="field__opt">(opcional)</span></label>
+                <textarea id="f-detalles" name="detalles" rows="3" placeholder="Ej.: sillón de 3 plazas con una mancha de café…"></textarea>
+            </div>
+
+            <!-- CTA 7 -->
+            <button class="btn btn--primary btn--lg btn--block" type="submit" id="form-submit" data-magnetic>
+                <svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                <span>Enviar mi solicitud por WhatsApp</span>
+            </button>
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<!-- ================================================================
+     FOOTER
+================================================================ -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <a class="brand" href="#inicio" aria-label="VIVE-LIMPIEZA — ir al inicio">
+                    <svg class="brand__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+                    <span class="brand__text">VIVE<i>-</i><b>LIMPIEZA</b></span>
+                </a>
+                <p>Limpieza profunda de textiles, muebles, tapetes, colchones, interior de autos y post obra. Para que vuelvas a estrenar lo que ya tienes.</p>
+            </div>
+
+            <nav class="footer__col" aria-label="Enlaces del sitio">
+                <h2 class="footer__heading">Explorar</h2>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Por qué nosotros</a></li>
+                    <li><a href="#proceso">Proceso</a></li>
+                    <li><a href="#faq">Preguntas</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__col">
+                <h2 class="footer__heading">Contacto</h2>
+                <ul>
+                    <li><a href="tel:+526672445395"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg> 667 244 5395</a></li>
+                    <li><a href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20vi%20su%20p%C3%A1gina%20web%20y%20quiero%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener"><svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg> WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>© <span id="year">2026</span> VIVE-LIMPIEZA. Todos los derechos reservados.</p>
+            <a class="footer__top" href="#inicio">Volver arriba <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+    </div>
+</footer>
+
+<!-- ================================================================
+     WHATSAPP FLOTANTE — abajo a la derecha
+================================================================ -->
+<a class="fab" id="wa-fab" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a VIVE-LIMPIEZA"
+   href="https://wa.me/526672445395?text=Hola%20VIVE-LIMPIEZA%2C%20vi%20su%20p%C3%A1gina%20web%20y%20quiero%20una%20cotizaci%C3%B3n.">
+    <span class="fab__pulse"></span><span class="fab__pulse fab__pulse--2"></span>
+    <svg class="icon icon--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+    <span class="fab__bubble" id="fab-bubble">¿Quieres cotizar? <b>Escríbenos</b></span>
+</a>
+
+<noscript>
+    <style>.loader{display:none!important}.hero__title .w>span,.reveal-hero,[data-reveal]{opacity:1!important;transform:none!important}.acc__panel{grid-template-rows:1fr!important}</style>
+</noscript>
+
+<script src="main.js"></script>
+</body>
+</html>
